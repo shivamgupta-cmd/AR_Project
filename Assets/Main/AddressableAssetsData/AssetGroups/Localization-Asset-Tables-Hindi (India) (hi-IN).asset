@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Asset-Tables-Hindi (India) (hi-IN)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Asset-Tables-Hindi (India) (hi-IN)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 892f1d8c3151f584a95dd49a5bf2b9b1
+  m_SerializeEntries:
+  - m_GUID: ffd252d479dd4d24099c95a9020890aa
+    m_Address: Audio_hi-IN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hi-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: d8f76134c0e31944babc1f4d1299343e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ba3bc899bedad4043aca61063731f2eb, type: 2}
+    - {fileID: 11400000, guid: 2e43d8587a7e9c6498788c3f4e6a550a, type: 2}

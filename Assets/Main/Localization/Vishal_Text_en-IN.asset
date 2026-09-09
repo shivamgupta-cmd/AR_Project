@@ -1,0 +1,762 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Vishal_Text_en-IN
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-IN
+  m_SharedData: {fileID: 11400000, guid: 82e720d0009182742bc5eec11f1f51d8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 17539383296
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 783293116633088
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 783740967636992
+    m_Localized: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 784746417803264
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1460326050091008
+    m_Localized: Outer Ear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1462380629905408
+    m_Localized: Ear Bone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1463049818525696
+    m_Localized: Fat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1467679554195456
+    m_Localized: Middle Ear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1468342568800256
+    m_Localized: Nerve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1468704126193664
+    m_Localized: Vein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1479580208123904
+    m_Localized: Adrenal Glands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1481621194199040
+    m_Localized: Ureter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483502465372160
+    m_Localized: Doudenum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483600779857920
+    m_Localized: Kidney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1485159383224320
+    m_Localized: Gallbladder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1486516819382272
+    m_Localized: Pancreas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1487746446708736
+    m_Localized: Portal vein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1488262052499456
+    m_Localized: vein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2556108172517376
+    m_Localized: Adrenal Gland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2556393062227968
+    m_Localized: Coretx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2556951990984704
+    m_Localized: Medulla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2557092487585792
+    m_Localized: Red Blue Veins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2558075988959232
+    m_Localized: Kidney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2558757626273792
+    m_Localized: Ureter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2559111566811136
+    m_Localized: Urethra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3644165056942080
+    m_Localized: Lower Jaw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3644317993848832
+    m_Localized: Skull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3644464328921088
+    m_Localized: Lower Teeth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3644571904430080
+    m_Localized: Uper Teeth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10230907845324800
+    m_Localized: Hand Crank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10231306979487744
+    m_Localized: Layden Jars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10231456732917760
+    m_Localized: Pulley Disk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10231642888712192
+    m_Localized: Right Collector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10231815165554688
+    m_Localized: Sectors On The Disks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11296034988339200
+    m_Localized: Battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11296514489561088
+    m_Localized: Bulb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11296616121741312
+    m_Localized: 'Wire '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11296732014555136
+    m_Localized: Switch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11297813134159872
+    m_Localized: Conservator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11297818033106944
+    m_Localized: Cooling Tubes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11346743301615616
+    m_Localized: Low Voltage Bushing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11346875912925184
+    m_Localized: OIl tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34476711231410176
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34476971861266432
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34503884419944448
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34504570117345280
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34505766907465728
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34506886056824832
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34513239445917696
+    m_Localized: Mute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34513633156845568
+    m_Localized: Unmute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34537983725588480
+    m_Localized: This AR project brings Science to life through over 100 interactive
+      modules across Biology, Chemistry, and Physics. Each module uses Augmented
+      Reality to visually explain complex concepts, making learning more engaging,
+      immersive, and fun. Designed for students and educators, the project helps
+      simplify science topics through 3D models, animations, and interactive elements,
+      accessible directly from a mobile device. It encourages curiosity, strengthens
+      understanding, and supports visual learning. Regular updates will add new topics
+      and features based on user feedback and curriculum needs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35531428816539648
+    m_Localized: Biology
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35543719414910976
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35543882543976448
+    m_Localized: Hindi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35546261389627392
+    m_Localized: Chemistry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35546403199045632
+    m_Localized: Physics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35548269907595264
+    m_Localized: Animal Breathing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35548570307842048
+    m_Localized: Animal cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93939534719635456
+    m_Localized: Sources of Vitamins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35549360602796032
+    m_Localized: Coelenterata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35549428168839168
+    m_Localized: Component of cns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35549956588228608
+    m_Localized: Component of Pns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93951723203481600
+    m_Localized: Sources of Minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94968640328454144
+    m_Localized: Bacteria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35569389780127744
+    m_Localized: Excetory system
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94969294572769280
+    m_Localized: Fungi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94975627535601664
+    m_Localized: Smooth Muscle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94970104002138112
+    m_Localized: Cell Divison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94977168015380480
+    m_Localized: Striated muscle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35571913010499584
+    m_Localized: Nervous Tissue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35572201628946432
+    m_Localized: Platyhelminthes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35572828669005824
+    m_Localized: Porifera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35573125873192960
+    m_Localized: Respiratory System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35573497249452032
+    m_Localized: Seeds And Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35573823671160832
+    m_Localized: Skull With Teeth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35574067632852992
+    m_Localized: Uterus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35574259354488832
+    m_Localized: Virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35574456163815424
+    m_Localized: Cardiac Muscle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35574798263832576
+    m_Localized: Digestive System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35574944821202944
+    m_Localized: Flower Anatomy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35574944628264960
+    m_Localized: Heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35575559488065536
+    m_Localized: Human Excretory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35576017757720576
+    m_Localized: Liver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35576246406008832
+    m_Localized: Protectorate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35576531518017536
+    m_Localized: Red Algea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94962707728715776
+    m_Localized: Skeletal system
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35576972184178688
+    m_Localized: Vertebrata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35579519359832064
+    m_Localized: Soil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35580937919582208
+    m_Localized: Periodic Table
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35581606839767040
+    m_Localized: Reactivity series of metals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35582716484833280
+    m_Localized: Thomson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35586145877807104
+    m_Localized: BOHR's Model
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35586709067976704
+    m_Localized: Covalent Bond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35586947933589504
+    m_Localized: Double Displacement reaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35587226808668160
+    m_Localized: Effect of Temperature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35587481541332992
+    m_Localized: Ionic Bond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35587668749897728
+    m_Localized: Structure Of Atom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35590145889062912
+    m_Localized: Water Particles System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35590361379819520
+    m_Localized: SOURCE OF ENERGY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35590960267710464
+    m_Localized: Osmosis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35591307782574080
+    m_Localized: PH Scales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35592511921115136
+    m_Localized: Physical change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35593231311360000
+    m_Localized: Cradle Mograph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35593596370997248
+    m_Localized: Communication
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35594194617159680
+    m_Localized: Electric Motor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35594518123827200
+    m_Localized: Galvonometer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35594756351905792
+    m_Localized: Gravity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35594940490240000
+    m_Localized: Physical balance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35595211614244864
+    m_Localized: Semiconductor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35595527176900608
+    m_Localized: Spherometer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35595780080848896
+    m_Localized: Transformer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35596153101275136
+    m_Localized: Wimshurst machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35625415799787520
+    m_Localized: Circulatory System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35626303431954432
+    m_Localized: Food web
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35626821680156672
+    m_Localized: Germination
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35626821898260480
+    m_Localized: Molecular Geometry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35628332413931520
+    m_Localized: Muscular System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35629723534544896
+    m_Localized: Nervous System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35630363413368832
+    m_Localized: Nitrogen  Cycle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35631076956753920
+    m_Localized: Part Of A Flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35631907949039616
+    m_Localized: Photosynthesis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35633179087392768
+    m_Localized: Photosynthesis vs Respiration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35633918392193024
+    m_Localized: Plant Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35634426318213120
+    m_Localized: Plant Transportation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35636409733271552
+    m_Localized: Acid Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35637690363334656
+    m_Localized: Destilation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35865437555707904
+    m_Localized: Electrolysis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35866239976394752
+    m_Localized: Gas law
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35866240181915648
+    m_Localized: Le_Chatelier_s_Principle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35867530198831104
+    m_Localized: Physical vs Chemical Change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35867530366603264
+    m_Localized: Polymerization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35868678943199232
+    m_Localized: Redox_Reactions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35869169961979904
+    m_Localized: Salt_Formation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35870295897722880
+    m_Localized: Simple Chemical Bonding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35870676748914688
+    m_Localized: State of matter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35871451529138176
+    m_Localized: Titration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35872425891123200
+    m_Localized: Buoyancy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35881962786312192
+    m_Localized: Doppler Effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35882650245320704
+    m_Localized: Elasticity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35883218791616512
+    m_Localized: Electricity Magnetism
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35883658501476352
+    m_Localized: Heat Transfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35883888483553280
+    m_Localized: Hooks Law
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35884211394629632
+    m_Localized: Inertia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35884654703202304
+    m_Localized: Kinetic and Potential Energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35885585167601664
+    m_Localized: Newton's  Second law
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35885585368928256
+    m_Localized: Newton's first law
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35886401773424640
+    m_Localized: Ohm's Law
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35887158996291584
+    m_Localized: Pressure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35887511850504192
+    m_Localized: Projectile Motion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94967491185627136
+    m_Localized: PROTOZOA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35888070577934336
+    m_Localized: Reflaction of light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35888887959703552
+    m_Localized: Sound Wave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35889217434865664
+    m_Localized: Time Dilation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35889494187626496
+    m_Localized: Work and Energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93928881132949504
+    m_Localized: Sources of Fats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93932231920472064
+    m_Localized: Sources of Carbohydrates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93936367978172416
+    m_Localized: Animal SOURCES OF PROTEINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93938669506023424
+    m_Localized: Plant sources of Proteins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115374026034622464
+    m_Localized: Metal and Non Metals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115375847700541440
+    m_Localized: 'Physical changes 1
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115375918135488512
+    m_Localized: 'Physical changes 2
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115377722638315520
+    m_Localized: Chemical Change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115378410793578496
+    m_Localized: Interconversion of States of Matter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115379155978792960
+    m_Localized: Litmus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115379729935740928
+    m_Localized: Turmeric
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115380715517489152
+    m_Localized: Red rose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115381751137284096
+    m_Localized: "Thomson\u2019s Model"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115382459454566400
+    m_Localized: "Rutherford\u2019s Model"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115384050001752064
+    m_Localized: Displacement Reaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115385035386368000
+    m_Localized: Displacement Reaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115386815247659008
+    m_Localized: Combination reaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115387551104741376
+    m_Localized: Decomposition reaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115403873779822592
+    m_Localized: Solar System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115404615861252096
+    m_Localized: Stars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115405549697871872
+    m_Localized: Linear Motion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115406806231658496
+    m_Localized: Circular motion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115407588314165248
+    m_Localized: Oscillatory motion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115411043783127040
+    m_Localized: Non Magnetic Materials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115411986687832064
+    m_Localized: Magnetic Materials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115412903071952896
+    m_Localized: Magnets and Poles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115414308029575168
+    m_Localized: Electric Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115415207292547072
+    m_Localized: Electric Switch
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

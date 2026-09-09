@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English (India) (en-IN)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-English (India) (en-IN)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9627648d770779243aaed93a939d853d
+  m_SerializeEntries:
+  - m_GUID: 2187a57ac355cec419da1076d5b227e7
+    m_Address: Virus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 589ff6eee0a608248bc4e2ce6c37501f
+    m_Address: Bacteria Intro
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c16edbf30752204aab7a18e2b38660f
+    m_Address: Sources of Vitamins
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69801b4650f472146856edd120701117
+    m_Address: Animal Cell
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a50029a597dc92429d7f463abb65ea0
+    m_Address: Sources of minerals
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73de3f057bef0b140b49d393f86b6a6f
+    m_Address: Circulatory System Intro
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7626634351b0e5a43a0f80ddbd4315d7
+    m_Address: Protozoa
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 990895357bcf94e4da523e31c8e56d3d
+    m_Address: Flower
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cc026778357afb4b99a2559d2eee3d6
+    m_Address: CNS intro
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9da26f3c63b39b74d8b3bc320c2c9372
+    m_Address: Nervous System
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9dafdf1606fa6242a2b4b3274e4df5a
+    m_Address: Excretory System
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1d83f35df2819f4b9aa968ecd712ed1
+    m_Address: human Digestive system
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2e5f8b129d6ba04f9cfb66ef457ef32
+    m_Address: Respiratory System
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3aca0eb0b508024196865d28153f6c4
+    m_Address: Skeletal System
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f20a8ffc5e93b9e4f82ea9c477965781
+    m_Address: Plant Cell
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: d8f76134c0e31944babc1f4d1299343e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 68e74405e30039b4c81fa4e7a7083718, type: 2}
+    - {fileID: 11400000, guid: f296ab02d4eee8346990ebe769845702, type: 2}
