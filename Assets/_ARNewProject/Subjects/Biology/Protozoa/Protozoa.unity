@@ -5528,8 +5528,8 @@ MonoBehaviour:
   relative: 0
   sensitivity: 1
   damping: -1
-  MinScale: 1
-  MaxScale: 10
+  MinScale: 5
+  MaxScale: 15
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!114 &101334498
 MonoBehaviour:
@@ -32358,14 +32358,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Protozoa
+  mTrackableName: Protozoa IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.8211207
+  mAspectRatio: 0.94
   mImageTargetType: 3
   mWidth: 0.49999988
-  mHeight: 0.41056025
-  mRuntimeTexture: {fileID: 2800000, guid: a21f37a5cbc86c748bb1fb0848987ee8, type: 3}
+  mHeight: 0.46999988
+  mRuntimeTexture: {fileID: 2800000, guid: 903d226d67d7e4b4a855a5f3855c8d3e, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -32400,7 +32400,7 @@ MonoBehaviour:
   modelObject: {fileID: 101334491}
   arCamera: {fileID: 69358461}
   spawnDistance: 1.2
-  spawnScale: {x: 7, y: 7, z: 7}
+  spawnScale: {x: 10, y: 10, z: 10}
   spawnRotation: {x: 0, y: 0, z: 0}
   trackingSettleTime: 0.15
   onModelActivated:
@@ -32434,7 +32434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Protozoa
+  mTargetName: Protozoa IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}

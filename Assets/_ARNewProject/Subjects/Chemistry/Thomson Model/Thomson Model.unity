@@ -6769,14 +6769,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Circulatory system
+  mTrackableName: Thomson IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.84375006
+  mAspectRatio: 0.45996094
   mImageTargetType: 3
   mWidth: 0.4999999
-  mHeight: 0.42187494
-  mRuntimeTexture: {fileID: 0}
+  mHeight: 0.22998042
+  mRuntimeTexture: {fileID: 2800000, guid: 099ec4d8746462845b65efa722a61d37, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -6852,7 +6852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Circulatory system
+  mTargetName: Thomson IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}
@@ -19384,7 +19384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THOMSON MODEL
+  m_text: Thomson Model
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}

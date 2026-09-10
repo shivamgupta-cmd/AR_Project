@@ -4170,14 +4170,14 @@ MonoBehaviour:
   PreviewVisible: 0
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Solar_System
+  mTrackableName: Solar System IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.661442
+  mAspectRatio: 0.8561873
   mImageTargetType: 3
-  mWidth: 0.4999999
-  mHeight: 0.33072093
-  mRuntimeTexture: {fileID: 2800000, guid: 62dafdde53b38764b87aa156c328230e, type: 3}
+  mWidth: 0.49999994
+  mHeight: 0.42809358
+  mRuntimeTexture: {fileID: 2800000, guid: 1955aeaf425674a4398b4db6bd7bef16, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -4234,7 +4234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Solar_System
+  mTargetName: Solar System IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}

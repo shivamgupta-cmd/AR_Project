@@ -3,6 +3,7 @@
     "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.29.6.tgz",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.development": "1.0.1",
+    "com.unity.formats.fbx": "4.2.1",
     "com.unity.localization": "1.5.4",
     "com.unity.mobile.android-logcat": "1.4.7",
     "com.unity.render-pipelines.universal": "14.0.12",
