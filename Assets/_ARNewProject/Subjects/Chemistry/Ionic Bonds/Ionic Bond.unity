@@ -10835,7 +10835,7 @@ MonoBehaviour:
   loop: 0
   loopDelay: 1.5
   attractionDuration: 1.2
-  startingSeparation: 1.4
+  startingSeparation: 1
   pairSpacing: 0.35
   movementEase:
     serializedVersion: 2
