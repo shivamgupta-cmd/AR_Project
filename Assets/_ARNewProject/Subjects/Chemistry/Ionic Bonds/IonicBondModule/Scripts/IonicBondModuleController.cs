@@ -32,20 +32,14 @@ public class IonicBondModuleController : MonoBehaviour
     public AnimationCurve transferEase = AnimationCurve.EaseInOut(0,0,1,1);
     public TrailRenderer electronTrail;
 
-    [Header("Ions Attraction")]
-    public Transform cationAttractionTarget;
-    public Transform anionAttractionTarget;
-    public LineRenderer attractionLine;
+   
 
-    [Header("Charge Icons")]
-    public GameObject positiveChargeIcon;
-    public GameObject negativeChargeIcon;
 
     [Header("FX")]
     public GameObject electronHighlightGlow;
     public ParticleSystem transferImpactFX;
-    public ParticleSystem ionFormationFX;
-    public ParticleSystem latticeCompleteFX;
+   
+   
 
     [Header("Playback")]
     public bool playOnStart = false;
@@ -109,14 +103,12 @@ public class IonicBondModuleController : MonoBehaviour
         SetActive(sodiumCation, false);
         SetActive(chlorideAnion, false);
         SetActive(crystalLattice, false);
-        SetActive(positiveChargeIcon, false);
-        SetActive(negativeChargeIcon, false);
+        
         SetActive(electronHighlightGlow, false);
 
-        if (attractionLine) attractionLine.enabled = false;
+       
         StopParticle(transferImpactFX);
-        StopParticle(ionFormationFX);
-        StopParticle(latticeCompleteFX);
+       
 
         if (sodiumElectron)
         {
@@ -189,9 +181,12 @@ public class IonicBondModuleController : MonoBehaviour
     IEnumerator TransferElectronRoutine()
     {
         SetActive(electronHighlightGlow, false);
+
         Vector3 start = sodiumElectron.position;
-        Quaternion startRot = sodiumElectron.rotation;
+
+        // Detach from Sodium while travelling
         sodiumElectron.SetParent(transform, true);
+
         if (electronTrail)
         {
             electronTrail.Clear();
@@ -199,84 +194,75 @@ public class IonicBondModuleController : MonoBehaviour
         }
 
         float t = 0f;
+
         while (t < electronTransferTime)
         {
             t += Time.deltaTime;
+
             float n = Mathf.Clamp01(t / electronTransferTime);
             float e = transferEase.Evaluate(n);
-            Vector3 pos = Vector3.Lerp(start, electronTarget.position, e);
-            pos += Vector3.up * Mathf.Sin(e * Mathf.PI) * arcHeight;
+
+            Vector3 pos = Vector3.Lerp(
+                start,
+                electronTarget.position,
+                e
+            );
+
+            // Arc movement
+            pos += Vector3.up *
+                   Mathf.Sin(e * Mathf.PI) *
+                   arcHeight;
+
             sodiumElectron.position = pos;
-            sodiumElectron.Rotate(Vector3.up, 360f * Time.deltaTime, Space.World);
+
+            sodiumElectron.Rotate(
+                Vector3.up,
+                360f * Time.deltaTime,
+                Space.World
+            );
+
             yield return null;
         }
+
+        // ==========================================
+        // ELECTRON REACHED CHLORINE
+        // ==========================================
+
         sodiumElectron.position = electronTarget.position;
-        if (electronTrail) electronTrail.emitting = false;
+
+        // Make electron child of Electron Target
+        sodiumElectron.SetParent(electronTarget, true);
+
+        // Keep it exactly at target position
+        sodiumElectron.localPosition = Vector3.zero;
+
+        // Optional - match target rotation
+        sodiumElectron.localRotation = Quaternion.identity;
+
+        // Stop trail
+        if (electronTrail)
+        {
+            electronTrail.emitting = false;
+        }
+
+        // Impact FX
         if (transferImpactFX)
         {
-            transferImpactFX.transform.position = electronTarget.position;
+            transferImpactFX.transform.position =
+                electronTarget.position;
+
             transferImpactFX.Play();
         }
+
         running = null;
     }
 
-    public void FormIons()
-    {
-        if (running != null) StopCoroutine(running);
-        running = StartCoroutine(FormIonsRoutine());
-    }
+  
 
-    IEnumerator FormIonsRoutine()
-    {
-        yield return new WaitForSeconds(ionFormDelay);
-        SetActive(sodiumAtom, false);
-        SetActive(chlorineAtom, false);
-        if (sodiumElectron) sodiumElectron.gameObject.SetActive(false);
-        SetActive(sodiumCation, true);
-        SetActive(chlorideAnion, true);
-        SetActive(positiveChargeIcon, true);
-        SetActive(negativeChargeIcon, true);
-        if (ionFormationFX) ionFormationFX.Play();
-        running = null;
-    }
 
-    public void StartAttraction()
-    {
-        if (running != null) StopCoroutine(running);
-        running = StartCoroutine(AttractionRoutine());
-    }
+   
 
-    IEnumerator AttractionRoutine()
-    {
-        if (!sodiumCation || !chlorideAnion) yield break;
-        Vector3 ca = sodiumCation.transform.position;
-        Vector3 an = chlorideAnion.transform.position;
-        Vector3 caTarget = cationAttractionTarget ? cationAttractionTarget.position : Vector3.Lerp(ca, an, 0.42f);
-        Vector3 anTarget = anionAttractionTarget ? anionAttractionTarget.position : Vector3.Lerp(an, ca, 0.42f);
-
-        if (attractionLine) attractionLine.enabled = true;
-
-        float t = 0f;
-        while (t < attractionTime)
-        {
-            t += Time.deltaTime;
-            float n = transferEase.Evaluate(Mathf.Clamp01(t / attractionTime));
-            sodiumCation.transform.position = Vector3.Lerp(ca, caTarget, n);
-            chlorideAnion.transform.position = Vector3.Lerp(an, anTarget, n);
-            UpdateAttractionLine();
-            yield return null;
-        }
-        UpdateAttractionLine();
-        running = null;
-    }
-
-    void UpdateAttractionLine()
-    {
-        if (!attractionLine || !sodiumCation || !chlorideAnion) return;
-        attractionLine.positionCount = 2;
-        attractionLine.SetPosition(0, sodiumCation.transform.position);
-        attractionLine.SetPosition(1, chlorideAnion.transform.position);
-    }
+  
 
     public void BuildCrystalLattice()
     {
@@ -288,10 +274,7 @@ public class IonicBondModuleController : MonoBehaviour
     {
         SetActive(sodiumCation, false);
         SetActive(chlorideAnion, false);
-        SetActive(positiveChargeIcon, false);
-        SetActive(negativeChargeIcon, false);
-        if (attractionLine) attractionLine.enabled = false;
-        SetActive(crystalLattice, true);
+       
         if (latticePieces.Count == 0) CacheLatticePieces();
 
         foreach (var p in latticePieces) if (p) p.SetActive(false);
@@ -312,7 +295,7 @@ public class IonicBondModuleController : MonoBehaviour
             }
             p.transform.localScale = Vector3.one;
         }
-        if (latticeCompleteFX) latticeCompleteFX.Play();
+      
         running = null;
     }
 
@@ -323,10 +306,7 @@ public class IonicBondModuleController : MonoBehaviour
         SetActive(chlorineAtom, false);
         SetActive(sodiumCation, false);
         SetActive(chlorideAnion, false);
-        SetActive(positiveChargeIcon, false);
-        SetActive(negativeChargeIcon, false);
-        if (attractionLine) attractionLine.enabled = false;
-        SetActive(crystalLattice, true);
+       
         foreach (var p in latticePieces)
         {
             if (!p) continue;
@@ -349,11 +329,11 @@ public class IonicBondModuleController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         yield return HighlightElectronRoutine();
         yield return TransferElectronRoutine();
-        yield return FormIonsRoutine();
-        yield return new WaitForSeconds(0.5f);
-        yield return AttractionRoutine();
-        yield return new WaitForSeconds(0.5f);
-        yield return BuildLatticeRoutine();
+        //yield return FormIonsRoutine();
+        //yield return new WaitForSeconds(0.5f);
+        //yield return AttractionRoutine();
+        //yield return new WaitForSeconds(0.5f);
+        //yield return BuildLatticeRoutine();
         running = null;
     }
 
