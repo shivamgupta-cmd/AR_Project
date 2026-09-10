@@ -3836,14 +3836,14 @@ MonoBehaviour:
   PreviewVisible: 0
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Electromagnet
+  mTrackableName: Electromagnet IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.6020408
+  mAspectRatio: 0.8388704
   mImageTargetType: 3
   mWidth: 0.49999985
-  mHeight: 0.30102032
-  mRuntimeTexture: {fileID: 2800000, guid: a2dce02d92be4ec4dac0b632c3731d1b, type: 3}
+  mHeight: 0.41943508
+  mRuntimeTexture: {fileID: 2800000, guid: 285f116a411a01c498d39a299251f93f, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -3996,7 +3996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Electromagnet
+  mTargetName: Electromagnet IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}

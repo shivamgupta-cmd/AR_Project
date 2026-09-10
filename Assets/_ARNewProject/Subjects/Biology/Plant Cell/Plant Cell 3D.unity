@@ -2991,14 +2991,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Plant Cell
+  mTrackableName: Plant Cell IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.553495
+  mAspectRatio: 0.93634844
   mImageTargetType: 3
   mWidth: 0.49999988
-  mHeight: 0.27674744
-  mRuntimeTexture: {fileID: 2800000, guid: a143556031c0a23488c370b639cd3e95, type: 3}
+  mHeight: 0.4681741
+  mRuntimeTexture: {fileID: 2800000, guid: c45464f94d27a2249905894b4d563a59, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -3055,7 +3055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Plant Cell
+  mTargetName: Plant Cell IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}

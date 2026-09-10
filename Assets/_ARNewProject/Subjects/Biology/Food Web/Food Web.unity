@@ -1240,7 +1240,7 @@ Transform:
   m_GameObject: {fileID: 101334491}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.124, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4479,14 +4479,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Food Web
+  mTrackableName: Food Web IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.83503056
+  mAspectRatio: 0.87417215
   mImageTargetType: 3
   mWidth: 0.49999985
-  mHeight: 0.41751516
-  mRuntimeTexture: {fileID: 2800000, guid: 7440ce710f2703b41ba02960aaec319e, type: 3}
+  mHeight: 0.43708596
+  mRuntimeTexture: {fileID: 2800000, guid: e3417f2dc56881a48a3eed5724edcfed, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -4543,7 +4543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Food Web
+  mTargetName: Food Web IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}

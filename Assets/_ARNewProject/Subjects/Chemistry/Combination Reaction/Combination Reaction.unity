@@ -23877,14 +23877,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Combination Reaction
+  mTrackableName: Combination reaction IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.665392
+  mAspectRatio: 0.91652757
   mImageTargetType: 3
   mWidth: 0.4999999
-  mHeight: 0.33269593
-  mRuntimeTexture: {fileID: 2800000, guid: ea3aa86a8c09f1a4db2b9e125711ba5d, type: 3}
+  mHeight: 0.4582637
+  mRuntimeTexture: {fileID: 2800000, guid: 08ec848f89e7bf04594a5bcfd847d32c, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -23941,7 +23941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Combination Reaction
+  mTargetName: Combination reaction IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}
@@ -67265,7 +67265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Circulatory System
+  m_text: Combination Reaction
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -67292,7 +67292,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.65
+  m_fontSize: 44.1
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1

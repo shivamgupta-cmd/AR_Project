@@ -8191,14 +8191,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Displacement
+  mTrackableName: Displacement rnx IT
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.4209703
+  mAspectRatio: 0.93
   mImageTargetType: 3
   mWidth: 0.49999988
-  mHeight: 0.2104851
-  mRuntimeTexture: {fileID: 2800000, guid: 85539386037260c43b52be266f542f7a, type: 3}
+  mHeight: 0.46499988
+  mRuntimeTexture: {fileID: 2800000, guid: 4eb04b8cc4212714f8c61e6ffbc64891, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -8274,7 +8274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 713871116}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Displacement
+  mTargetName: Displacement rnx IT
   mDatasetName: 
   mCastedBehaviour: {fileID: 713871116}
   mMeshFilter: {fileID: 0}
@@ -26020,7 +26020,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Circulatory System
+  m_text: Displacement Reaction
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -26047,7 +26047,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.65
+  m_fontSize: 44.1
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
